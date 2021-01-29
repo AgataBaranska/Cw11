@@ -27,7 +27,7 @@ namespace Cw11
         public void ConfigureServices(IServiceCollection services)
         {
 
-           // services.AddScoped<IClinicDbService, ClinicDbService>();
+       
             services.AddDbContext<ClinicDbContext>(options =>
             {
                 options.UseSqlServer("Data Source=DESKTOP-ENIT2G5\\SQLEXPRESS;" +
